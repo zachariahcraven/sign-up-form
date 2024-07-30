@@ -1,10 +1,9 @@
 body {
     display: flex;
     position: relative;
-    height: 200vh;
 }
 body > div:not(:nth-child(1)) {
-    height: 100vh;
+    height: 120vh;
     width: 65vw;
     background-color: #e6e4e2
 }
@@ -14,12 +13,11 @@ body > div:not(:nth-child(1)) {
     background-repeat: no-repeat;
 
     width: 35vw;
-    height: 100vh;
+    height: 120vh;
 }
 
 .brief {
-    height: 13vh;
-    padding: 15% 5% 5% 5%;
+    padding: 20% 5% 0% 5%;
     font-size: large;
     font-weight: bold;
 }
@@ -27,10 +25,10 @@ body > div:not(:nth-child(1)) {
 form.input-section {
     margin: 0px 0px 5px 0px;
     position: absolute;
-    top: 15%;
+    top: 276px;
     padding: 5%;
     height: 30vh;
-    background-color: white;
+    background-color: #646b4970;
     box-shadow: 0px 5px 5px rgba(95, 103, 109, 0.37);
 }
 
@@ -44,7 +42,7 @@ legend {
 .ribbon {
     display: flex;
     position: relative;
-    top: 10%;
+    top: 120px;
     background-color: rgba(152, 144, 134, 0.438);
     height: 20vh;
     font-size: 2rem;
@@ -60,13 +58,6 @@ div[logo] {
     background-repeat: no-repeat;
     margin-left: 10%;
     flex: 1 1 40%;
-}
-
-#footer {
-    position: absolute;
-    bottom: 40%;
-    padding: 20px;
-    height: 28vh;
 }
 
 button {
@@ -89,20 +80,38 @@ fieldset > fieldset {
 input {
     display: block;
     width: 15vw;
+    outline: none;
 
 }
 input:hover {
-    background-color: #ede5e0
+    background-color: #ede5e0;
 }
 input:focus{
-    background-color: #ede5e0
+    background-color: #ede5e0;
 }
 input:valid {
-    border-color: #7981ca;
+    border-color: 2px ridge #7981ca;
+
 }
-input:invalid {
+input:focus:invalid {
     border: 2px ridge red;
 }
 label {
     font-size: small;
+}
+#footer {
+    position: absolute;
+    bottom: 0%;
+    padding: 20px;
+}
+#footer > div {
+    padding: 10px;
+}
+
+#login-page {
+    color: #646b49fb;
+}
+#login-page:hover {
+    color: #646b49fb;
+    font-weight: bold;
 }
