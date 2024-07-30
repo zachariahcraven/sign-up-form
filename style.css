@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    position: relative;
+    height: 200vh;
+}
+
+.sidelogo {
+    background-image: url(./photos/yohan-marion-OHyjAcUpzfI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 35vw;
+    height: 100vh;
+}
+
+.brief {
+    height: 13vh;
+    padding: 15% 5% 5% 5%;
+    background-color:rgb(237, 243, 244);
+    font-size: large;
+    font-weight: bold;
+}
+
+form.input-section {
+    margin: 0px 0px 5px 0px;
+    padding: 5%;
+    height: 30vh;
+    box-shadow: 0px 5px 5px rgba(95, 103, 109, 0.37);
+}
+
+legend {
+    font-size: large;
+    font-weight:bold;
+    color: rgb(98, 88, 88);
+    padding-bottom: 5%;
+}
+
+.ribbon {
+    display: flex;
+    position: relative;
+    top: 10%;
+    background-color: rgba(152, 144, 134, 0.438);
+    height: 20vh;
+    width: 35vw;
+    font-size: 2rem;
+}
+
+.ribbon-description {
+    flex: 1 1 60%;
+    align-self: center;
+}
+div[logo] {
+    background-image: url(./photos/odin-lined.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    flex: 1 1 40%;
+}
+
+#footer {
+    padding: 20px;
+    background-color:rgb(237, 243, 244);
+    height: 28vh;
+}
+
+button {
+    background-color: blanchedalmond;
+    padding: 10px 20px 10px 20px;
+}
+button:hover {
+    background-color: #b3a5a2;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+fieldset > fieldset {
+    display: block;
+}
+
+input {
+    display: block;
+    width: 20vw;
+}
+input:hover {
+    background-color: #ede5e0
+}
+input:focus{
+    background-color: #ede5e0
+}
+label {
+    font-size: small;
+}
